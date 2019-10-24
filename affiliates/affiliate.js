@@ -1,5 +1,3 @@
-import { ModuleMap } from "jest-haste-map"
-
 function buildMakeAffiliate({}) {
     return function makeAffiliate({
         affiliateId,
@@ -39,4 +37,4 @@ function buildMakeAffiliate({}) {
     }
 }
 
-module.exports = makeAffiliate;
+module.exports = buildMakeAffiliate;
