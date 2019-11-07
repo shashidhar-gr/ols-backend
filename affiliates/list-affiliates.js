@@ -5,5 +5,5 @@ function makeListAffiliates ({ affiliatesDb }) {
         }
     }
 }
-
+module.exports = buildMakeAffiliate;
 module.exports = makeListAffiliates;
